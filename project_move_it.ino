@@ -1,9 +1,9 @@
 //tell code to use servo library
 #include <Servo.h>
-#define DOOR_PIN 2 //defines the motor at pin 2
-#define OPEN_BUTTON 10 //defines the button at pin 10
-#define RED_LED 3 //defines the red LED at pin 3
-#define GREEN_LED 4 //defines the green LED at pin 4
+#define DOOR_PIN 13 //defines the motor at pin 2
+#define OPEN_BUTTON 8 //defines the button at pin 10
+#define RED_LED 11 //defines the red LED at pin 3
+#define GREEN_LED 10 //defines the green LED at pin 4
 
 //makes a servo object
 Servo door;
